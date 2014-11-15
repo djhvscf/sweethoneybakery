@@ -8,19 +8,21 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>Dennis Hernández </title>
+    <title>Sweet Honey Bakery </title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-
+	<link href="assets/css/bootstrap-table.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/image.css">
 
     <script src="assets/js/jquery-1.10.2.min.js"></script>
+	<script src="assets/js/bootstrap-table.js"></script>    
     <script src="assets/js/hover.zoom.js"></script>
     <script src="assets/js/hover.zoom.conf.js"></script>
+	<script src="assets/js/index.js"></script>
 	
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -40,7 +42,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Dennis Hernández</a>
+          <a class="navbar-brand" href="index.html">Sweet Honey Bakery</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -59,8 +61,8 @@
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 centered">
 					<img src="assets/img/user.png" class="userImgBig userImg" alt="Dennis Hernández">
-					<h1>Hi, I am Dennis Hernández!</h1>
-					<p>Projects and experiments</p>
+					<h1>Sweet Honey Bakery!</h1>
+					<p>App</p>
 				</div><!-- /col-lg-8 -->
 			</div><!-- /row -->
 	    </div> <!-- /container -->
@@ -70,46 +72,25 @@
 	<!-- +++++ Projects Section +++++ -->
 	
 	<div class="container pt">
+		<div class="row mt">
+			<div class="col-lg-6 col-lg-offset-3 centered">
+				<h3>Ingredientes</h3>
+				<hr>
+				<p>Ingredientes principales usados en nuestras recetas</p>
+			</div>
+		</div>
 		<div class="row mt centered">	
-			<div class="col-lg-4">
-				<a class="zoom red" href="projects/mariovsluigi.html"><img class="img-responsive" src="assets/img/portfolio/mario.jpg" alt="" style="height: 268px !important;" /></a>
-				<p>Mario vs Luigi</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom red" href="projects/sispro.html"><img class="img-responsive" src="assets/img/portfolio/sispro.png" alt="" style="height: 268px !important;" /></a>
-				<p>SISPRO</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom red" href="projects/cenfoforum.html"><img class="img-responsive" src="assets/img/portfolio/cenfoForum.png" alt="" style="height: 268px !important;" /></a>
-				<p>CenfoForum</p>
-			</div>
-		</div><!-- /row -->
-		<div class="row mt centered">	
-			<div class="col-lg-4">
-				<a class="zoom red" href="projects/imdb.html"><img class="img-responsive" src="assets/img/portfolio/imdb.PNG" alt="" style="height: 268px !important;" /></a>
-				<p>IMDb</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom red" href="projects/hangman.html"><img class="img-responsive" src="assets/img/portfolio/hangman1.PNG" alt="" style="height: 268px !important;"  /></a>
-				<p>Hang man</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom red" href="experiments/2014/10/valid.html"><img class="img-responsive" src="assets/img/portfolio/jvalid.png" alt="" style="height: 268px !important;"  /></a>
-				<p>jValid</p>
-			</div>
-		</div><!-- /row -->
-		<div class="row mt centered">	
-			<div class="col-lg-4">
-				<a class="zoom red" href="experiments/2014/10/stringcaser.html"><img class="img-responsive" src="assets/img/portfolio/stringcaser.png" alt="" style="height: 268px !important;" /></a>
-				<p>StringCaser</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom red" href="experiments/2014/10/flatjson.html"><img class="img-responsive" src="assets/img/portfolio/flatjson.png" alt="" style="height: 268px !important;"  /></a>
-				<p>flatJSON</p>
-			</div>
-			<div class="col-lg-4">
-				<!--<a class="zoom red" href="experiments/valid.html"><img class="img-responsive" src="assets/img/portfolio/jvalid.png" alt="" style="height: 268px !important;"  /></a>
-				<p>jValid</p>-->
+			<div class="col-lg-8 col-lg-offset-2">
+				<table id="bstable">
+						<thead>
+							<tr>
+								<th data-field="nombre" data-sortable="true">Nombre</th>
+								<th data-field="cantidad" data-sortable="true">Cantidad</th>
+								<th data-field="precio" data-sortable="true">Precio</th>
+								<th data-field="precioUnidad" data-sortable="true">Precio Unidad</th>
+							</tr>
+						</thead>
+					</table>
 			</div>
 		</div><!-- /row -->
 	</div><!-- /container -->
