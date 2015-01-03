@@ -44,7 +44,7 @@ img {
 }
 
 h2{
-	color:#ceb453;
+	color:#B24447;
 	font-size:23px;
 	text-align:left;
 	font-weight:400;
@@ -57,7 +57,7 @@ h2{
 
 
 h3 {
-	color:#cc6633;
+	color:#B24447;
 	font-size:16px;
 	line-height:2em;
 	text-align:center;
@@ -86,7 +86,7 @@ h3 span{
 
 
 h4 {
-	color:#ceb453;
+	color:#B24447;
 	font-size:23px;
 	line-height:1.3em;
 	text-align:center;
@@ -118,7 +118,7 @@ h6{
 	font-size:18px;
 	margin-top:30px;
 	line-height:1.7em;
-	color:#ceb453;
+	color:#BC7985;
 	text-align:center;
 
 
@@ -126,7 +126,7 @@ h6{
 
 
 a {
-	color:#ceb453;
+	color:#BC7985;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -134,7 +134,7 @@ a {
 
 
 a:hover {
-	color:#cc6633;
+	color:#ceb453;
 }
 
 
@@ -155,7 +155,7 @@ a:hover {
     margin-bottom: 0;
     text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
-    background-color:#cdb96c;
+    background-color:#B24447;
 
 }
 
@@ -243,8 +243,7 @@ a:hover {
 	padding:20px;
 	line-height:1.4em;
 	font-family: 'Lato', sans-serif;
-	font-weight:400;   
-
+	font-weight:bold;
 }
 
 
@@ -313,6 +312,13 @@ a:hover {
   -o-transition-property: opacity;
   transition-property: opacity;
 }
+
+.carousel-fade .carousel-inner .item img{
+	min-height:600px;
+	max-height:600px;
+	min-width:100%;
+	max-width:100%;
+}
 .carousel-fade .carousel-inner .active{
   opacity: 1;
 }
@@ -369,7 +375,7 @@ a:hover {
 .menu-heading { 
 	text-align:left;
 	font-weight:700;
-	color:#cc6633;
+	color:#BC7985;
 	font-size:17px;
 	font-family: 'Lato', sans-serif;
 	letter-spacing:0;   
