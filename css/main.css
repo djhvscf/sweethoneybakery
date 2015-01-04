@@ -447,7 +447,7 @@ hr.style {
 
 .contact-btn{
 	color: #fff;
-	background-color:#ceb453;
+	background-color:#B24447;
 	margin-bottom:12px;
 	border-radius:5px;
 	text-transform: uppercase;
@@ -460,7 +460,7 @@ hr.style {
 }
 .contact-btn:hover{
 	color:white;
-	background-color:#993300;
+	background-color:#ceb453;
 
 
 }
